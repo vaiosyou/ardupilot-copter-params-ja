@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "この資料を引用する場合は以下の情報を使用してください。"
+type: dataset
+title: "ArduCopter 全パラメータ 日本語解説（非公式）— ArduCopter 4.7.2 Complete Parameter List の日本語訳"
+authors:
+  - family-names: "内海"
+    given-names: "翔"
+version: "1.0.0"
+date-released: "2026-10-27"
+license: GPL-3.0-only
+repository-code: "https://github.com/vaiosyou/ardupilot-copter-params-ja"
+keywords:
+  - ArduPilot
+  - ArduCopter
+  - parameters
+  - Japanese translation
+  - multicopter
+  - drone
+abstract: "ArduPilot のマルチコプター用ファームウェア ArduCopter 4.7.2 の全パラメータ（5,687 項目）の説明文と選択肢を日本語に訳した非公式資料。AI による下訳で、人による確認は順次実施。"
