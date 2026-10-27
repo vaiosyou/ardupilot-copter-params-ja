@@ -3,9 +3,20 @@
   "upload_type": "publication",
   "publication_type": "technicalnote",
   "description": "<p>ArduPilot のマルチコプター用ファームウェア ArduCopter 4.7.2 の全パラメータ（5,687 項目）の説明文と選択肢を日本語に訳した非公式資料です。ArduPilot プロジェクトが作成・承認したものではありません。説明文は AI（Claude）による下訳で、人による確認は順次実施します。</p><p>Unofficial Japanese translation of the ArduCopter 4.7.2 Complete Parameter List. Not affiliated with the ArduPilot project.</p>",
-  "creators": [{"name": "内海, 翔"}],
+  "creators": [
+    {
+      "name": "内海, 翔"
+    }
+  ],
   "license": "gpl-3.0-only",
   "language": "jpn",
-  "keywords": ["ArduPilot", "ArduCopter", "parameters", "Japanese translation", "multicopter", "drone"],
-  "version": "1.0.0"
+  "keywords": [
+    "ArduPilot",
+    "ArduCopter",
+    "parameters",
+    "Japanese translation",
+    "multicopter",
+    "drone"
+  ],
+  "version": "1.0.1"
 }

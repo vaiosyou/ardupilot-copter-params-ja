@@ -1,5 +1,7 @@
 # ArduCopter 全パラメータ 日本語解説（非公式）
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23683393.svg)](https://doi.org/10.5281/zenodo.23683393)
+
 > **ArduPilot 公式のものではない、非公式の日本語訳です。** ArduPilot プロジェクトが作成・承認したものではありません。
 
 オープンソースの飛行制御ソフトウェア [ArduPilot](https://ardupilot.org/) のマルチコプター用ファームウェア **ArduCopter 4.7.2** の全パラメータ（5,687 項目）について、説明文と選択肢の意味を日本語に訳した資料です。
@@ -32,6 +34,8 @@
 - 本資料は無保証です（GPL-3.0 第 15・16 条）。ArduPilot および製品名は各権利者の商標です。
 
 ## 引用
+
+DOI（全版共通・常に最新版）：[10.5281/zenodo.23683393](https://doi.org/10.5281/zenodo.23683393)
 
 [CITATION.cff](CITATION.cff) を参照してください（GitHub の「Cite this repository」から書式を取得できます）。
 

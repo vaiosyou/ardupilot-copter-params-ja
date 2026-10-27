@@ -5,7 +5,7 @@
  "version": "4.7.2",
  "version_note": "GitHub タグ Copter-4.7.2",
  "tag": "Copter-4.7.2",
- "edition": "1",
+ "edition": "第 1 版・v1.0.1",
  "author": "内海 翔",
  "build_date": "2026-10-27",
  "license_short": "GPL-3.0（原文：ArduPilot ソースコード中のパラメータ定義、GPL-3.0。本資料はその日本語訳。詳細は巻末）",
@@ -30,6 +30,10 @@
   [
    "取得日",
    "2026-10-27"
+  ],
+  [
+   "DOI",
+   "全版共通：<a href=\"https://doi.org/10.5281/zenodo.23683393\">10.5281/zenodo.23683393</a>（Zenodo）／ v1.0.0：<a href=\"https://doi.org/10.5281/zenodo.23683394\">10.5281/zenodo.23683394</a>"
   ]
  ],
  "license_rows": [
@@ -68,8 +72,13 @@
  ],
  "history": [
   [
-   "第 1 版（2026-10-27）",
+   "v1.0.0（2026-10-27）",
    "初版。ArduCopter 4.7.2 の全 5,687 パラメータを収録。説明文・選択肢を AI（Claude）で下訳。人による確認は未実施（全項目「未確認」）。GPL-3.0 で提供。"
+  ],
+  [
+   "v1.0.1（2026-10-27）",
+   "Zenodo の DOI を表紙・出典・README・引用情報に追記。本文の変更なし。"
   ]
- ]
+ ],
+ "doi_html": "<a href=\"https://doi.org/10.5281/zenodo.23683393\">10.5281/zenodo.23683393</a>（全版共通・常に最新版）"
 }

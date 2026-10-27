@@ -324,8 +324,9 @@ doc = f"""<!DOCTYPE html>
   <table>
     <tr><td>対象</td><td>ArduCopter {esc(M["version"])}（{esc(M["version_note"])}）</td></tr>
     <tr><td>収録数</td><td>{total} パラメータ（{len(fam_order)} グループ）</td></tr>
-    <tr><td>作成日</td><td>{esc(TODAY)}（第 {esc(M["edition"])} 版）</td></tr>
+    <tr><td>作成日</td><td>{esc(TODAY)}（{esc(M["edition"])}）</td></tr>
     <tr><td>作者</td><td>{esc(M["author"])}</td></tr>
+    {f'<tr><td>DOI</td><td>{M["doi_html"]}</td></tr>' if M.get("doi_html") else ""}
     <tr><td>ライセンス</td><td>{M["license_short"]}</td></tr>
     <tr><td>元データ</td><td>{M["source_short"]}</td></tr>
     <tr><td>確認状況</td><td>確認済み {n_ok} ／ 未確認（AI 下訳のまま） {total - n_ok}</td></tr>

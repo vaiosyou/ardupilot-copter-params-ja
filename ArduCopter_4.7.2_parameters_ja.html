@@ -81,8 +81,9 @@ code{font-family:Consolas,'DejaVu Sans Mono','Courier New',monospace;font-size:9
   <table>
     <tr><td>対象</td><td>ArduCopter 4.7.2（GitHub タグ Copter-4.7.2）</td></tr>
     <tr><td>収録数</td><td>5687 パラメータ（134 グループ）</td></tr>
-    <tr><td>作成日</td><td>2026-10-27（第 1 版）</td></tr>
+    <tr><td>作成日</td><td>2026-10-27（第 1 版・v1.0.1）</td></tr>
     <tr><td>作者</td><td>内海 翔</td></tr>
+    <tr><td>DOI</td><td><a href="https://doi.org/10.5281/zenodo.23683393">10.5281/zenodo.23683393</a>（全版共通・常に最新版）</td></tr>
     <tr><td>ライセンス</td><td>GPL-3.0（原文：ArduPilot ソースコード中のパラメータ定義、GPL-3.0。本資料はその日本語訳。詳細は巻末）</td></tr>
     <tr><td>元データ</td><td>ArduPilot ソースコード（<a href="https://github.com/ArduPilot/ardupilot/tree/Copter-4.7.2">GitHub ArduPilot/ardupilot、タグ Copter-4.7.2</a>）のパラメータ定義。公式 <a href="https://ardupilot.org/copter/docs/parameters.html">Complete Parameter List</a> と同じ元データ</td></tr>
     <tr><td>確認状況</td><td>確認済み 0 ／ 未確認（AI 下訳のまま） 5687</td></tr>
@@ -145,11 +146,11 @@ code{font-family:Consolas,'DejaVu Sans Mono','Courier New',monospace;font-size:9
 <section class="chapter" id="license">
 <h2>出典・ライセンス・変更履歴</h2>
 <h3>出典</h3>
-<table class="info"><tr><th>元の説明文</th><td>ArduPilot プロジェクト「Complete Parameter List」（<a href="https://ardupilot.org/copter/docs/parameters.html">https://ardupilot.org/copter/docs/parameters.html</a>）。同ページは、ソースコード中のパラメータ定義コメント（@Param）から自動生成されている。</td></tr><tr><th>取得元</th><td>GitHub <a href="https://github.com/ArduPilot/ardupilot">ArduPilot/ardupilot</a>、タグ <code>Copter-4.7.2</code>（コミット <code>fb773567896014da007bca58358704d4a0d8516f</code>、2026-10-13）</td></tr><tr><th>生成ツール</th><td>リポジトリ同梱の <code>Tools/autotest/param_metadata/param_parse.py --vehicle ArduCopter --format json</code>（公式一覧の生成と同じツール）</td></tr><tr><th>既定値</th><td>同タグの SITL（<code>./waf copter</code>、<code>--model quad -w</code>）で読み出した値、およびソースコード中の定義から抽出した値</td></tr><tr><th>取得日</th><td>2026-10-27</td></tr></table>
+<table class="info"><tr><th>元の説明文</th><td>ArduPilot プロジェクト「Complete Parameter List」（<a href="https://ardupilot.org/copter/docs/parameters.html">https://ardupilot.org/copter/docs/parameters.html</a>）。同ページは、ソースコード中のパラメータ定義コメント（@Param）から自動生成されている。</td></tr><tr><th>取得元</th><td>GitHub <a href="https://github.com/ArduPilot/ardupilot">ArduPilot/ardupilot</a>、タグ <code>Copter-4.7.2</code>（コミット <code>fb773567896014da007bca58358704d4a0d8516f</code>、2026-10-13）</td></tr><tr><th>生成ツール</th><td>リポジトリ同梱の <code>Tools/autotest/param_metadata/param_parse.py --vehicle ArduCopter --format json</code>（公式一覧の生成と同じツール）</td></tr><tr><th>既定値</th><td>同タグの SITL（<code>./waf copter</code>、<code>--model quad -w</code>）で読み出した値、およびソースコード中の定義から抽出した値</td></tr><tr><th>取得日</th><td>2026-10-27</td></tr><tr><th>DOI</th><td>全版共通：<a href="https://doi.org/10.5281/zenodo.23683393">10.5281/zenodo.23683393</a>（Zenodo）／ v1.0.0：<a href="https://doi.org/10.5281/zenodo.23683394">10.5281/zenodo.23683394</a></td></tr></table>
 <h3>ライセンス</h3>
 <table class="info"><tr><th>本資料のライセンス</th><td>本資料（日本語訳・解説・研究注記を含む全体）は、元の説明文と同じ <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License version 3（GPL-3.0）</a> で提供する。本資料は、ArduPilot のソースコード（GPL-3.0）に含まれるパラメータ定義コメントを日本語に翻訳した改変物である。</td></tr><tr><th>著作権表示</th><td>原文：© ArduPilot Development Team and contributors。日本語訳・解説・注記：© 2026 内海 翔。</td></tr><tr><th>改変の内容</th><td>2026-10-27、ArduPilot Copter-4.7.2 のパラメータ定義（説明文・選択肢名）を日本語に翻訳し、既定値・確認状況などを加えて文書の形に再構成した。</td></tr><tr><th>ソース（編集可能な形式）</th><td>本資料の HTML、訳文データ（JSON）、生成スクリプト一式を <a href="https://github.com/vaiosyou/ardupilot-copter-params-ja">https://github.com/vaiosyou/ardupilot-copter-params-ja</a> で配布する（src/ フォルダ）。</td></tr><tr><th>保証の否認</th><td>GPL-3.0 第 15・16 条のとおり、本資料は無保証で提供される。非公式の資料であり内容の正確性を保証しない。実機の設定・飛行は利用者の責任で行うこと。</td></tr><tr><th>ArduPilot ソースコード</th><td>リポジトリの README.md と COPYING.txt は、ArduPilot プロジェクトを GPL-3.0 で提供すると定めている。</td></tr><tr><th>ArduPilot 公式 Wiki</th><td>Wiki のコンテンツは CC BY-SA 3.0 Unported で提供されている（<a href="https://ardupilot.org/copter/docs/common-wiki_editing_guide.html">Wiki Editing Guide</a>）。パラメータ一覧のページはソースコードから自動生成されたものであり、本資料はソースコード側を元データとしている。</td></tr><tr><th>商標等</th><td>ArduPilot、ArduCopter および本資料中の製品名は、各権利者の商標または登録商標である。</td></tr></table>
 <h3>変更履歴</h3>
-<table class="info"><tr><th>第 1 版（2026-10-27）</th><td>初版。ArduCopter 4.7.2 の全 5,687 パラメータを収録。説明文・選択肢を AI（Claude）で下訳。人による確認は未実施（全項目「未確認」）。GPL-3.0 で提供。</td></tr></table>
+<table class="info"><tr><th>v1.0.0（2026-10-27）</th><td>初版。ArduCopter 4.7.2 の全 5,687 パラメータを収録。説明文・選択肢を AI（Claude）で下訳。人による確認は未実施（全項目「未確認」）。GPL-3.0 で提供。</td></tr><tr><th>v1.0.1（2026-10-27）</th><td>Zenodo の DOI を表紙・出典・README・引用情報に追記。本文の変更なし。</td></tr></table>
 <div class="notice">ArduPilot 公式のものではない、非公式の日本語訳です。ArduPilot および関連名称は各権利者に帰属します。本資料に広告は含まれません。</div>
 </section>
 <script>

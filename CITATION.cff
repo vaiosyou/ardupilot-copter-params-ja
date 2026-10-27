@@ -5,9 +5,10 @@ title: "ArduCopter 全パラメータ 日本語解説（非公式）— ArduCopt
 authors:
   - family-names: "内海"
     given-names: "翔"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-10-27"
 license: GPL-3.0-only
+doi: "10.5281/zenodo.23683393"
 repository-code: "https://github.com/vaiosyou/ardupilot-copter-params-ja"
 keywords:
   - ArduPilot
